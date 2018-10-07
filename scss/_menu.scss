@@ -92,14 +92,11 @@
       background-size: cover;
       border-radius: 50%;
       border: 3px solid white;
-      transition: all 0.3s ease-out;
+      @include easeOut;
 
       &:hover {
-        height: 350px;
-        // width: 350px;
-        border-radius: 4px;
         border: 3px solid $secondary-color;
-        transition: all 0.3s ease-out;
+        @include easeOut;
       }
     }
   }
