@@ -62,7 +62,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: darken($primary-color, 5);
+    background: darken($primary-color, 4);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
@@ -76,7 +76,7 @@
   // branding side
 
   &-branding {
-    background: $primary-color;
+    background: rgba($primary-color, 0.8);
     transform: translate3d(0, 100%, 0);
     @include easeOut;
 
@@ -118,7 +118,7 @@
   .nav-link {
     display: inline-block;
     position: relative;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 250;
