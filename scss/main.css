@@ -217,7 +217,7 @@ h3.sm-heading {
   padding: 0.2rem 1rem;
   background: rgba(53, 135, 212, 0.5);
   color: #fff;
-  height: 60px;
+  height: auto;
 }
 
 a {
@@ -243,7 +243,7 @@ main {
 }
 
 main .icons {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 main .icons a {
