@@ -1,5 +1,5 @@
 .menu-btn {
-  position: absolute;
+  position: fixed;
   z-index: 3;
   right: 35px;
   top: 35px;
@@ -321,6 +321,52 @@ main#welcome-section h1 {
   padding: 5px 10px;
   border-radius: 4px;
   border-bottom: solid 3px #eece1a;
+}
+
+.projects {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 0.7rem;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.projects .project-tile {
+  background: #2b7dca;
+}
+
+.projects img {
+  width: 100%;
+  border: 3px solid white;
+}
+
+.projects img:hover {
+  opacity: 0.5;
+  border-color: #eece1a;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.btn, .btn-dark, .btn-light {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+}
+
+.btn:hover, .btn-dark:hover, .btn-light:hover {
+  background: #eece1a;
+  color: #000;
+}
+
+.btn-dark {
+  background: #071522;
+  color: #fff;
+}
+
+.btn-light {
+  background: #cde1f4;
+  color: #333;
 }
 
 #main-footer {
