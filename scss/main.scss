@@ -87,6 +87,8 @@ main {
   grid-template-columns: repeat(4, 1fr);
 
   .bio-image {
+    background: url(../img/portrait-small.jpg);
+    background-size: cover;
     grid-area: bio-image;
     margin: auto;
     border-radius: 50%;
