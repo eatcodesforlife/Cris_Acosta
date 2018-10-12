@@ -378,7 +378,21 @@ main#welcome-section h1 {
   height: 60px;
 }
 
-@media screen and (max-width: 1098px) {
+@media screen and (min-width: 1171px) {
+  .projects {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170) {
+  .projects {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
   main {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -391,7 +405,6 @@ main#welcome-section h1 {
   }
   ul.menu-nav,
   div.menu-branding {
-    float: none;
     width: 100%;
     min-height: 0;
   }
@@ -419,6 +432,17 @@ main#welcome-section h1 {
   }
   .about-info {
         grid-template-areas: "bio-image" "bio" "job1" "job2" "job3" "job4";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .projects {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
