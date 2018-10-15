@@ -4,8 +4,8 @@
   right: 35px;
   top: 35px;
   cursor: pointer;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .menu-btn .btn-line {
@@ -13,8 +13,8 @@
   height: 3px;
   margin: 0 0 5px 0;
   background: #fff;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .menu-btn.close {
@@ -71,12 +71,12 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #2773b9;
+  background: #12728f;
   list-style: none;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .menu-nav.show {
@@ -85,11 +85,11 @@
 }
 
 .menu-branding {
-  background: rgba(43, 125, 202, 0.8);
+  background: rgba(20, 128, 161, 0.9);
   -webkit-transform: translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .menu-branding.show {
@@ -104,21 +104,21 @@
   background-size: cover;
   border-radius: 50%;
   border: 3px solid #fff;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .menu-branding .portrait:hover {
   border: 3px solid #eece1a;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .menu .nav-item {
   -webkit-transform: translate3d(600px, 0, 0);
           transform: translate3d(600px, 0, 0);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .menu .nav-item.show {
@@ -139,8 +139,8 @@
   font-weight: 250;
   color: #fff;
   text-decoration: none;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .menu .nav-link:hover {
@@ -181,22 +181,6 @@ body {
   line-height: 1.5;
 }
 
-body#bg-img {
-  background: url(../img/bg.jpg) center no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-body#bg-img:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
 h1,
 h2,
 h3 {
@@ -217,7 +201,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(53, 135, 212, 0.5);
+  background: rgba(22, 142, 179, 0.5);
   color: #fff;
   height: auto;
 }
@@ -241,7 +225,7 @@ header#navbar {
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
-  background: rgba(43, 125, 202, 0.8);
+  background: #1480a1;
 }
 
 main .icons {
@@ -254,8 +238,8 @@ main .icons a {
 
 main .icons a:hover {
   color: #eece1a;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 main#welcome-section {
@@ -271,7 +255,7 @@ main#welcome-section h1 {
   display: -ms-grid;
   display: grid;
   grid-gap: 25px;
-      grid-template-areas: "bioimage bio bio bio" "job1 job2 job3 job4";
+      grid-template-areas: "bioimage bioimage bioimage bioimage" "bio bio bio bio" "job1 job2 job3 job4";
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
 }
@@ -281,6 +265,7 @@ main#welcome-section h1 {
   background-size: cover;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
@@ -290,42 +275,44 @@ main#welcome-section h1 {
 }
 
 .about-info .bio {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
   grid-area: bio;
   font-size: 1.5rem;
 }
 
 .about-info .job1 {
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: job1;
 }
 
 .about-info .job2 {
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-column: 2;
   grid-area: job2;
 }
 
 .about-info .job3 {
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-column: 3;
   grid-area: job3;
 }
 
 .about-info .job4 {
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-column: 4;
   grid-area: job4;
 }
 
 .about-info .job {
-  background-color: #3a8ad5;
+  background-color: #093846;
   padding: 5px 10px;
   border-radius: 4px;
   border-bottom: solid 3px #eece1a;
+  -webkit-box-shadow: 0 10px 15px #444;
+          box-shadow: 0 10px 15px #444;
 }
 
 .projects {
@@ -337,7 +324,7 @@ main#welcome-section h1 {
 }
 
 .projects .project-tile {
-  background: #2b7dca;
+  background: #1480a1;
 }
 
 .projects img {
@@ -348,8 +335,8 @@ main#welcome-section h1 {
 .projects img:hover {
   opacity: 0.5;
   border-color: #eece1a;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .contactme {
@@ -388,7 +375,7 @@ main#welcome-section h1 {
 
 .contactme form .input-container .icon {
   padding: 10px;
-  background: #071522;
+  background: black;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
@@ -404,7 +391,7 @@ main#welcome-section h1 {
   outline: 0;
 }
 
-.contactme form .input-container .input-field:focus {
+.contactme form .input-container .input-field:focus, .contactme form .input-container .input-field:hover {
   border: 3px solid #eece1a;
 }
 
@@ -425,6 +412,9 @@ main#welcome-section h1 {
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
+  -webkit-box-shadow: 0 10px 15px black;
+          box-shadow: 0 10px 15px black;
+  cursor: pointer;
 }
 
 .btn:hover, .btn-dark:hover, .btn-light:hover {
@@ -433,21 +423,19 @@ main#welcome-section h1 {
 }
 
 .btn-dark {
-  background: #071522;
-  cursor: pointer;
+  background: black;
   color: #fff;
 }
 
 .btn-light {
-  background: #cde1f4;
-  cursor: pointer;
+  background: #90daf1;
   color: #333;
 }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #194976;
+  background: #093846;
   height: 60px;
 }
 
