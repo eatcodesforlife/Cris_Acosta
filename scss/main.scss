@@ -62,10 +62,12 @@ main {
     margin-top: 2rem;
     a {
       padding: 0.4rem;
-
+      border-radius: 50%;
       &:hover {
         color: $secondary-color;
-        @include easeOut();
+        transform: scale(1.1);
+        border: solid 3px $secondary-color;
+        @include easeOut;
       }
     }
   }

@@ -234,10 +234,14 @@ main .icons {
 
 main .icons a {
   padding: 0.4rem;
+  border-radius: 50%;
 }
 
 main .icons a:hover {
   color: #eece1a;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: solid 3px #eece1a;
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
 }
