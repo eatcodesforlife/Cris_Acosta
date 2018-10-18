@@ -71,7 +71,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #12728f;
+  background: #108cb2;
   list-style: none;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
@@ -85,7 +85,7 @@
 }
 
 .menu-branding {
-  background: rgba(20, 128, 161, 0.9);
+  background: rgba(18, 155, 197, 0.9);
   -webkit-transform: translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0);
   -webkit-transition: all 0.4s ease-out;
@@ -201,7 +201,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(22, 142, 179, 0.5);
+  background: rgba(20, 170, 216, 0.5);
   color: #fff;
   height: auto;
 }
@@ -225,7 +225,7 @@ header#navbar {
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
-  background: #1480a1;
+  background: #129bc5;
 }
 
 main .icons {
@@ -234,14 +234,12 @@ main .icons {
 
 main .icons a {
   padding: 0.4rem;
-  border-radius: 50%;
 }
 
 main .icons a:hover {
   color: #eece1a;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  border: solid 3px #eece1a;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
 }
@@ -311,7 +309,7 @@ main#welcome-section h1 {
 }
 
 .about-info .job {
-  background-color: #093846;
+  background-color: #095168;
   padding: 5px 10px;
   border-radius: 4px;
   border-bottom: solid 3px #eece1a;
@@ -328,7 +326,7 @@ main#welcome-section h1 {
 }
 
 .projects .project-tile {
-  background: #1480a1;
+  background: #129bc5;
 }
 
 .projects img {
@@ -379,7 +377,7 @@ main#welcome-section h1 {
 
 .contactme form .input-container .icon {
   padding: 10px;
-  background: black;
+  background: #052d39;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
@@ -427,19 +425,19 @@ main#welcome-section h1 {
 }
 
 .btn-dark {
-  background: black;
+  background: #052d39;
   color: #fff;
 }
 
 .btn-light {
-  background: #90daf1;
+  background: #ace6f7;
   color: #333;
 }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #093846;
+  background: #095168;
   height: 60px;
 }
 
