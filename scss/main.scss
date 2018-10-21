@@ -65,6 +65,7 @@ main {
 
       &:hover {
         color: $secondary-color;
+        transform: scale(3.1);
         @include easeOut;
       }
     }
@@ -138,8 +139,6 @@ main {
   grid-template-columns: repeat(2, 1fr);
 
   .project-tile {
-    // background: $primary-color;
-
     .project-preview {
       background-color: darken($primary-color, 20);
       box-shadow: 0 10px 25px black;
