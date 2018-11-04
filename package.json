@@ -10,5 +10,13 @@
     "Portfolio"
   ],
   "author": "Cris Acosta",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eatcodesforlife/My-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eatcodesforlife/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/eatcodesforlife/My-Portfolio#readme"
 }
