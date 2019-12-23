@@ -180,7 +180,7 @@ main {
 
       .icon {
         padding: 10px;
-        background: darken($primary-color, 30);
+        background: $secondary-color;
         border-top-left-radius: 4px;
         border-bottom-left-radius: 4px;
       }
