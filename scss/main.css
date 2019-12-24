@@ -181,6 +181,12 @@ body {
   line-height: 1.5;
 }
 
+body#bg-img {
+  background: url(../img/bg.jpg) center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 h1,
 h2,
 h3 {
@@ -387,7 +393,7 @@ main#welcome-section h1 {
   padding: 10px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  font-family: lato;
+  font-family: Lato;
   font-size: 1rem;
   border: none;
   outline: 0;
