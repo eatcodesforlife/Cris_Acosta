@@ -86,18 +86,10 @@
     }
 
     .portrait {
-      width: 250px;
-      height: 250px;
-      background: url(../img/portrait.jpg);
+      width: 251px;
+      height: 284px;
+      background: url(../img/me-small.png);
       background-size: cover;
-      border-radius: 50%;
-      border: 3px solid set-text-color($primary-color);
-      @include easeOut;
-
-      &:hover {
-        border: 3px solid $secondary-color;
-        @include easeOut;
-      }
     }
   }
 
