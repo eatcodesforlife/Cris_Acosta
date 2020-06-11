@@ -350,8 +350,8 @@ main#welcome-section h1 {
   bottom: 0;
   opacity: 0.98;
   height: 100%;
-  -webkit-transition: 0.2s ease-out;
-  transition: 0.2s ease-out;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .projects .project-tile:hover .project-description .project-text {
