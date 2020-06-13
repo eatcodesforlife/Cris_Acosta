@@ -40,3 +40,10 @@
     grid-template-columns: 1fr;
   }
 }
+
+@include mediaSm {
+  .projects {
+    margin: auto;
+    font-size: 0.5rem;
+  }
+}

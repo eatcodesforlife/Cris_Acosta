@@ -230,8 +230,6 @@ main .icons a:hover {
   color: #ed6262;
   -webkit-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
-  -webkit-transform: scale(1);
-          transform: scale(1);
 }
 
 main#welcome-section {
@@ -313,15 +311,16 @@ main#welcome-section h1 {
           align-items: center;
   position: absolute;
   width: 100%;
+  max-width: 100%;
   height: 0;
   background: #e83434;
   padding: 5px 10px;
   opacity: 0;
-  bottom: 50%;
 }
 
 .projects .project-tile .project-description .project-text {
   position: relative;
+  max-width: 100%;
   padding: 0.5rem 1rem;
   text-align: center;
   display: none;
@@ -331,8 +330,6 @@ main#welcome-section h1 {
   position: relative;
   width: 100%;
   display: none;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -462,6 +459,7 @@ main#welcome-section h1 {
   padding: 1rem;
   background: #202031;
   height: 60px;
+  bottom: 0;
 }
 
 @media screen and (max-width: 875px) {
@@ -505,6 +503,13 @@ main#welcome-section h1 {
   .projects {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects {
+    margin: auto;
+    font-size: 0.5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
