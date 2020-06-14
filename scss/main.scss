@@ -67,6 +67,7 @@ main {
       &:hover {
         color: $secondary-color;
         transition: 0.2s ease-out;
+        transform: scale(1);
       }
     }
   }
@@ -92,6 +93,7 @@ main {
     margin: auto;
     width: 275px;
     height: 311px;
+    max-width: 100%;
   }
 
   .bio {
@@ -102,6 +104,7 @@ main {
     padding: 5px 10px;
     border-radius: 4px;
     border-bottom: solid 3px $secondary-color;
+    max-width: 100%;
   }
 }
 
@@ -110,15 +113,18 @@ main {
 .projects {
   display: grid;
   grid-gap: 0.7rem;
+  justify-items: center;
+
   grid-template-columns: repeat(2, 1fr);
 
   .project-tile {
     position: relative;
-    font-size: 0.95em;
+    font-size: 0.65em;
+    max-width: 400px;
 
     .project-preview {
       position: relative;
-      box-shadow: 0 10px 25px black;
+      // box-shadow: 0 10px 25px black;
       height: auto;
       img {
         border: 4px solid #eeeeee;
@@ -133,20 +139,17 @@ main {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      position: absolute;
       width: 100%;
-      max-width: 100%;
-      height: 0;
-      background: darken($secondary-color, 10);
-      padding: 5px 10px;
-      opacity: 0;
+      background: darken($secondary-color, 5);
+      padding: 10px;
+      margin-top: -5px;
+      border-top: 4px solid $secondary-color;
+      border-bottom: 4px solid $secondary-color;
 
       .project-text {
         position: relative;
-        max-width: 100%;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem;
         text-align: center;
-        display: none;
       }
 
       //buttons
@@ -154,36 +157,17 @@ main {
       .project-btns {
         position: relative;
         width: 100%;
-        display: none;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
 
         .btn {
-          display: none;
           background: $primary-color;
           border-radius: 20px;
+          margin-top: 5px;
           &:hover {
-            background: darken($secondary-color, 20);
+            background: darken($secondary-color, 10);
             transition: 0.3s ease-out;
-          }
-        }
-      }
-    }
-
-    //card overlay
-    &:hover {
-      .project-description {
-        bottom: 0;
-        opacity: 0.95;
-        height: 100%;
-        transition: 0.2s ease-out;
-
-        .project-text {
-          display: block;
-        }
-        .project-btns {
-          display: flex;
-          .btn {
-            display: inline-block;
           }
         }
       }
