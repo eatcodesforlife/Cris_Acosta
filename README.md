@@ -1,5 +1,5 @@
-TOOLS THAT MADE THIS PORTFOLIO:
 
-1. Grid and Flexbox for layout.
-2. SASS for styling.
-3. JS for the menu button.
+
+Special thanks to Brad Traversy for the guide in making this website.
+
+Feel free to fork this website 
