@@ -255,8 +255,8 @@ main#welcome-section h1 {
   background: url(../img/me.svg);
   background-size: cover;
   margin: auto;
-  width: 275px;
-  height: 311px;
+  width: 199px;
+  height: 225px;
   max-width: 100%;
 }
 
@@ -425,14 +425,14 @@ main#welcome-section h1 {
 
 .btn {
   padding: 0.5rem 1.5rem;
-  border: solid 3px #d11818;
+  border: solid 3px #ea4b4b;
   background: #2a2a40;
   color: #eeeeee;
   opacity: 1;
 }
 
 .btn:hover {
-  background: #d11818;
+  background: #ea4b4b;
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
 }

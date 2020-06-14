@@ -91,8 +91,8 @@ main {
     background: url(../img/me.svg);
     background-size: cover;
     margin: auto;
-    width: 275px;
-    height: 311px;
+    width: 199px;
+    height: 225px;
     max-width: 100%;
   }
 
@@ -124,7 +124,6 @@ main {
 
     .project-preview {
       position: relative;
-      // box-shadow: 0 10px 25px black;
       height: auto;
       img {
         border: 4px solid #eeeeee;
@@ -239,13 +238,13 @@ main {
 
 .btn {
   padding: 0.5rem 1.5rem;
-  border: solid 3px darken($secondary-color, 20);
+  border: solid 3px darken($secondary-color, 5);
   background: $primary-color;
   color: #eeeeee;
   opacity: 1;
 
   &:hover {
-    background: darken($secondary-color, 20);
+    background: darken($secondary-color, 5);
     transition: 0.3s ease-out;
   }
 }
