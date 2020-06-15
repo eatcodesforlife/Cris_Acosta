@@ -119,7 +119,7 @@ main {
 
   .project-tile {
     position: relative;
-    font-size: 0.65em;
+    font-size: 0.9rem;
     max-width: 400px;
 
     .project-preview {
@@ -141,7 +141,7 @@ main {
       width: 100%;
       background: darken($secondary-color, 5);
       padding: 10px;
-      margin-top: -5px;
+      margin-top: -7px;
       border-top: 4px solid $secondary-color;
       border-bottom: 4px solid $secondary-color;
 
@@ -238,7 +238,7 @@ main {
 
 .btn {
   padding: 0.5rem 1.5rem;
-  border: solid 3px darken($secondary-color, 5);
+  border: solid 3px darken($secondary-color, 20);
   background: $primary-color;
   color: #eeeeee;
   opacity: 1;

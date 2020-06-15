@@ -19,7 +19,7 @@ $background-opacity: 0.8;
 // media query mixins
 
 @mixin mediaXs {
-  @media screen and (min-width: 410px) {
+  @media screen and (min-width: 510px) {
     @content;
   }
 }

@@ -283,7 +283,7 @@ main#welcome-section h1 {
 
 .projects .project-tile {
   position: relative;
-  font-size: 0.65em;
+  font-size: 0.9rem;
   max-width: 400px;
 }
 
@@ -316,7 +316,7 @@ main#welcome-section h1 {
   width: 100%;
   background: #ea4b4b;
   padding: 10px;
-  margin-top: -5px;
+  margin-top: -7px;
   border-top: 4px solid #ed6262;
   border-bottom: 4px solid #ed6262;
 }
@@ -425,7 +425,7 @@ main#welcome-section h1 {
 
 .btn {
   padding: 0.5rem 1.5rem;
-  border: solid 3px #ea4b4b;
+  border: solid 3px #d11818;
   background: #2a2a40;
   color: #eeeeee;
   opacity: 1;
@@ -445,7 +445,7 @@ main#welcome-section h1 {
   bottom: 0;
 }
 
-@media screen and (min-width: 410px) {
+@media screen and (min-width: 510px) {
   .project-tile .project-description {
     position: absolute;
     height: 0;
